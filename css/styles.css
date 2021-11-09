@@ -1,0 +1,27 @@
+body { 
+
+	margin: 0px;
+	background: #24262d; 
+}
+
+.seb{
+	
+	padding:80px 0px;
+	background-color:#2ECC92;
+	
+}
+
+.seb h1{ color:white; }
+.seb p{ margin:0px; }
+
+.seb.q{
+	
+background: #17b2af;
+background: -moz-linear-gradient(-45deg,  #17b2af 0%, #06e295 100%);
+background: -webkit-linear-gradient(-45deg,  #17b2af 0%,#06e295 100%);
+background: linear-gradient(135deg,  #17b2af 0%,#06e295 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17b2af', endColorstr='#06e295',GradientType=1 );
+
+}
+
+.seb-large{ padding:80px 0px; }

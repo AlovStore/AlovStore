@@ -1,0 +1,208 @@
+.container-2{
+
+	margin-top: 70px;
+
+	/*margin-left: 450px;*/
+
+	position: relative;
+}
+
+.container-2 .card-sale{
+
+	position: relative;
+	width: 340px;
+	height: 450px;
+	background: #232323;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.container-2 .card-sale:before{
+
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #7DF97D;
+	clip-path: circle(150px at 80% 20%);
+	transition: 0.5s ease-in-out;
+}
+
+/* #a23d38 */
+
+.container-2 .card-sale:hover:before{
+
+	clip-path: circle(300px at 80% 20%);
+
+}
+
+.container-2 .card-sale:after{
+
+	content: 'PRICE';
+	position: relative;
+	top: 70;
+	left: -20;
+	font-size: 8em;
+	font-weight: 800;
+	font-style: italic;
+	color: rgba(255, 255, 255, 0.04);
+}
+
+.container-2 .card-sale .imgbox{
+
+	position: absolute;
+	top: 25%;
+	transform: translateY(-50%);
+	z-index: 10000;
+	width: 100%;
+	height: 100px;
+	transition: 0.5s;
+}
+
+.container-2 .card-sale:hover .imgbox{
+
+	transform: translateY(0%);
+}
+
+.container-2 .card-sale .imgbox img{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate( 0deg);
+	width: 150px;
+
+}
+
+.container-2 .card-sale .contentBox{
+
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	transition: 1s;
+	z-index: 10;
+}
+
+.container-2 .card-sale:hover .contentBox{
+
+	height: 210px;
+}
+
+.container-2 .card-sale .contentBox h2{
+
+	position: relative;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: #fff;
+
+}
+
+.container-2 .card-sale .contentBox .item,
+.container-2 .card-sale .contentBox .price{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 20p;
+	transition: 0.5s;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.container-2 .card-sale:hover .contentBox .item{
+
+	opacity: 1;
+	visibility: visible;
+	transition-delay: 0.9s;
+}
+
+.container-2 .card-sale:hover .contentBox .price{
+
+	opacity: 1;
+	visibility: visible;
+	transition-delay: 0.5s;
+}
+
+.container-2 .card-sale .contentBox .item h3,
+.container-2 .card-sale .contentBox .price h3{
+
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+
+.container-2 .card-sale .contentBox .price span{
+
+	width: 60px;
+	height: 24px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	display: inline-block;
+	color: #111;
+	background: #fff;
+	margin: 0.5px;
+	transition: 0.5s;
+	color: #111;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.container-2 .card-sale .contentBox .price span:hover{
+
+	background: #9bdc28;
+}
+
+.container-2 .card-sale .contentBox .item span{
+
+	width: 20px;
+	height: 20px;
+	background: #ff0;
+	border-radius: 50%;
+	margin: 0.5px;
+	cursor: pointer;
+}
+
+.container-2 .card-sale .contentBox .item span:nth-child(2){
+
+	background: red;
+}
+
+.container-2 .card-sale .contentBox .item span:nth-child(3){
+
+	background: purple;
+}
+
+.container-2 .card-sale .contentBox .item span:nth-child(4){
+
+	background: gold;
+}
+
+.container-2 .card-sale .contentBox a{
+
+	display: inline-block;
+	padding: 10px 20px;
+	background: #fff;
+	border-radius: 4px;
+	margin-top: 10px;
+	text-decoration: none;
+	font-weight: 600;
+	color: #111;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: 0.5s;
+}
+
+.container-2 .card-sale:hover .contentBox a{
+
+	opacity: 1;
+	transform: translateY(50px);
+	transition-delay: 0.75s;
+}

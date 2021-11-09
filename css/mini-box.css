@@ -1,0 +1,87 @@
+﻿.mini{
+	
+	padding: 280px 0px;
+	background-color:#2ECC92;
+	
+}
+
+.mini h1{ color:white; }
+.mini p{ margin:0px; }
+
+.box-s{
+
+background: #24262d;
+background: -moz-linear-gradient(top,  #24262d 1%, #35ff75 92%);
+background: -webkit-linear-gradient(top,  #24262d 1%,#35ff75 92%);
+background: linear-gradient(to bottom,  #24262d 1%,#35ff75 92%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24262d', endColorstr='#35ff75',GradientType=0 );
+
+}
+
+.text-f{
+
+	color: #fff;
+}
+
+.text-f h2{
+	position: absolute;
+	left: 60px;
+	margin-top: -210px;
+}
+
+.text-f p{
+
+	position: absolute;
+	bottom: 500px;
+	left: 60px;
+
+}
+
+.btn-box{
+
+	position: relative;
+	width: 60px;
+	padding: 10px 0px;
+	background: red;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.hovbtn .btn{
+
+	position: relative;
+	bottom: 160px;
+
+	padding: 11px 5px;
+	margin-top: 60px;
+	left: 62px;
+
+	width: 110px;
+	height: 40px;
+}
+
+.hovbtn .btn a{
+
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+
+.imgg{
+
+	position: relative;
+	width: 100%;
+	height: 60px;
+}
+
+.tanto-1{
+
+	position: absolute;
+	bottom: 101px;
+	left: 650px;
+
+    width: 570px;
+    height: 570px;
+	background: url(../../img/img/tanto.png) center center/cover no-repeat;
+}

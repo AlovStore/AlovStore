@@ -1,0 +1,224 @@
+.event{
+
+	margin-top: 70px;
+
+	/*margin-left: 450px;*/
+
+	position: relative;
+}
+
+.event .card-sale{
+
+	position: relative;
+	width: 570px;
+	height: 450px;
+	background: #232323;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.event .card-sale:before{
+
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: background: #24262d;
+background: -moz-linear-gradient(top,  #24262d 1%, #35ff75 92%);
+background: -webkit-linear-gradient(top,  #24262d 1%,#35ff75 92%);
+background: linear-gradient(to bottom,  #24262d 1%,#35ff75 92%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24262d', endColorstr='#35ff75',GradientType=0 );
+;
+	clip-path: circle(150px at 80% 20%);
+	transition: 0.5s ease-in-out;
+}
+
+/* #a23d38 */
+
+.event .card-sale:hover:before{
+
+	clip-path: circle(300px at 80% 20%);
+
+}
+
+.event .card-sale:after{
+
+	content: 'KNIFE';
+	position: relative;
+	top: 70;
+	left: -20;
+	font-size: 8em;
+	font-weight: 800;
+	font-style: italic;
+	color: rgba(255, 255, 255, 0.04);
+}
+
+.event .card-sale .imgbox{
+
+	position: absolute;
+	top: 25%;
+	transform: translateY(-50%);
+	z-index: 10000;
+	width: 100%;
+	height: 100px;
+	transition: 0.5s;
+}
+
+.event .card-sale:hover .imgbox{
+
+	transform: translateY(0%);
+}
+
+.event .card-sale .imgbox img{
+
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate( 30deg);
+	width: 500px;
+
+}
+
+.event .card-sale .contentBox{
+
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	transition: 1s;
+	z-index: 10;
+}
+
+.event .card-sale:hover .contentBox{
+
+	height: 210px;
+}
+
+.event .card-sale .contentBox h2{
+
+	position: relative;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: #fff;
+
+}
+
+.event .card-sale .contentBox .item,
+.event .card-sale .contentBox .price{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 20p;
+	transition: 0.5s;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.event .card-sale:hover .contentBox .item{
+
+	opacity: 1;
+	visibility: visible;
+	transition-delay: 0.9s;
+}
+
+.event .card-sale:hover .contentBox .price{
+
+	opacity: 1;
+	visibility: visible;
+	transition-delay: 0.5s;
+}
+
+.event .card-sale .contentBox .item h3,
+.event .card-sale .contentBox .price h3{
+
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+
+.event .card-sale .contentBox .price span{
+
+	width: 60px;
+	height: 24px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	display: inline-block;
+	color: #111;
+	background: #fff;
+	margin: 0.5px;
+	transition: 0.5s;
+	color: #111;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.event .card-sale .contentBox .price span:hover{
+
+	background: #9bdc28;
+}
+
+.event .card-sale .contentBox .item span{
+
+	width: 20px;
+	height: 20px;
+	background: #ff0;
+	border-radius: 50%;
+	margin: 0.5px;
+	cursor: pointer;
+}
+
+.event .card-sale .contentBox .item span:nth-child(2){
+
+	background: red;
+}
+
+.event .card-sale .contentBox .item span:nth-child(3){
+
+	background: purple;
+}
+
+.event .card-sale .contentBox .item span:nth-child(4){
+
+	background: gold;
+}
+
+.event .card-sale .contentBox a{
+
+	display: inline-block;
+	padding: 10px 20px;
+	background: #fff;
+	border-radius: 4px;
+	margin-top: 10px;
+	text-decoration: none;
+	font-weight: 600;
+	color: #111;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: 0.5s;
+}
+
+.event .card-sale:hover .contentBox a{
+
+	opacity: 1;
+	transform: translateY(50px);
+	transition-delay: 0.75s;
+}
+
+.linex{
+
+	width: auto;
+	height: 2px;
+	background: background: -moz-radial-gradient(center, ellipse cover,  rgba(53,255,117,1) 0%, rgba(39,76,47,0) 57%, rgba(36,38,32,0) 69%);
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(53,255,117,1) 0%,rgba(39,76,47,0) 57%,rgba(36,38,32,0) 69%);
+background: radial-gradient(ellipse at center,  rgba(53,255,117,1) 0%,rgba(39,76,47,0) 57%,rgba(36,38,32,0) 69%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35ff75', endColorstr='#00242620',GradientType=1 );
+
+}

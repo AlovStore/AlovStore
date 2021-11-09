@@ -1,0 +1,191 @@
+﻿@import url('../../css.css');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.profile-bb{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	min-height: 60vh;
+	background: #24262d;
+}
+
+.box {
+
+	position: relative;
+	width: 300px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 40px;
+	transition: 0.5s;
+}
+
+.box:hover{
+
+	height: 420px;
+}
+
+.box .imgBox{
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.box .imgBox img{
+
+	max-width: 100%;
+	opacity: 0.1;
+	transition: 0.5s;
+}
+
+.box:hover .imgBox img{
+
+	opacity: 1;
+}
+
+.box:before{
+
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	background: #fff;
+	z-index: -1;
+}
+
+.box:after{
+
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	background: #fff;
+	z-index: -2;
+	/*filter: blur(40px);*/
+}
+
+.box .content{
+
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	right: 10px;
+	bottom: 30px;
+	height: 100px;
+	background: rgba(0, 0, 0, 0.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.box:hover .content{
+
+	opacity: 1;
+}
+
+.box .content h2{
+
+	font-size: 20px;
+	color: #fff;
+	font-weight: 500;
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+
+.box .content h2 span{
+
+	font-size: 14px;
+	color: #fff;
+	line-height: 20px;
+	letter-spacing: 2px;
+}
+
+.search-img-author {
+    background: url('') center center/cover no-repeat;
+
+}
+
+.profile-shawarma{
+
+    width: 280px;
+    height: 280px;
+	background: url(https://xcoderxxx.github.io/img/img/shawarma.png) center center/cover no-repeat;
+}
+
+.profile-rouse{
+
+    width: 280px;
+    height: 280px;
+	background: url(https://xcoderxxx.github.io/img/img/rouse.gif) center center/cover no-repeat;
+}
+
+.profile-coder{
+
+    width: 280px;
+    height: 280px;
+	background: url(../../img/img/coder.png) center center/cover no-repeat;
+}
+
+.profile-amallion{
+
+    width: 280px;
+    height: 280px;
+	background: url(https://xcoderxxx.github.io/img/img/amallion.png) center center/cover no-repeat;
+}
+
+.profile-crazy{
+
+    width: 280px;
+    height: 280px;
+	background: url(https://xcoderxxx.github.io/img/img/crazy.gif) center center/cover no-repeat;
+}
+
+.profile-{
+
+    width: 280px;
+    height: 280px;
+	background: url(https://xcoderxxx.github.io/img/img/.png) center center/cover no-repeat;
+}
+
+.line{
+
+	width: auto;
+	height: 2px;
+	background: red;
+}
+
+.text-pro{
+
+	font-size: 20px;
+	color: #fff;
+	font-weight: 500;
+	line-height: 30px;
+	letter-spacing: 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	text-shadow: 0px 0px 10px red;
+
+}

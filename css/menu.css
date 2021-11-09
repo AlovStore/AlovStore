@@ -1,0 +1,107 @@
+.dws-menu *{
+
+	margin: 0;
+	padding: 0;
+}
+
+.dws-menu ul,
+.dws-menu ol{
+
+	list-style: none;
+}
+
+.dws-menu ul img{
+
+	height: 100%;
+	width: 38px;
+}
+
+.dws-menu > ul{
+
+	display: flex;
+	justify-content: center;
+}
+
+.dws-menu > ul li a{
+
+	display: block;
+	background: #474b59;
+	padding: 15px 30px 15px 30px;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+.dws-menu > ul li p{
+
+	display: block;
+	background: #474b59;
+	padding: 15px 30px 15px 30px;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+.dws-menu > ul li img{
+
+	display: block;
+}
+
+/* green- #52cc5b */
+
+.dws-menu > ul li{
+
+	position: relative;
+}
+
+.dws-menu > ul li > a i.imgMenu{
+
+	position: absolute;
+}
+
+.dws-menu li a:hover{
+
+	background: #fff;
+	color: black;
+	transition: 0.5s;
+}
+
+
+
+/* Sub Menu */
+
+.dws-menu li ul{
+
+	position: absolute;
+	min-width: 98px;
+	display: none;
+}
+
+.dws-menu li > ul li a{
+
+	padding: 10px;
+}
+
+.dws-menu li > ul li p{
+
+	padding: 10px;
+}
+
+.dws-menu li > ul li ul{
+
+	position: absolute;
+	right: -98px;
+	top: 0;
+}
+
+.dws-menu li:hover > ul{
+
+	display: block;
+	transition: 0.5s;
+}
+
+/* m(b4WZW%(!MwJV@BFjWD */

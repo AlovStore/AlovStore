@@ -1,0 +1,27 @@
+.btn-set {
+
+	padding-left: 120px;
+}
+
+.btn_test {
+
+	padding: 12px 70px; padding-bottom: 15px;
+	border-radius: 15px 15px 15px 15px;
+
+	box-shadow: 0 0 40px 40px #6F17FF inset, 0 0 0 0 #6F17FF;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+.btn_test:hover{
+
+color: #6F17FF;
+
+	border:none; border-bottom:2px;
+	transition: all 150ms ease-in-out;
+
+	box-shadow: 0 0 10px 0 #6F17FF inset, 0 0 10px 4px #6F17FF;
+}
